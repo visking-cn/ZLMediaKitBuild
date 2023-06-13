@@ -38,7 +38,7 @@ jobs:
         uses: peter-evans/repository-dispatch@v2
         with:
           token: ${{ github.token }}
-          repository: gemone/ZLMediaKitBuild
+          repository: visking-cn/ZLMediaKitBuild
           event-type: Source Code Update
 
       - name: Delete workflow runs
